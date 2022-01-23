@@ -1,0 +1,41 @@
+{
+    "signup": {
+        "nome": "Bruno Santos",
+        "cpf": "00000000236",
+        "email": "bruno@test.com",
+        "whatsapp": "99999999999",
+        "endereco": {
+            "cep": "02217050",
+            "numero": "99",   
+            "complemento": "Bar do cypress"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+     "incorrectCpf":{
+        "nome": "Bruno Santos",
+        "cpf": "000000002AA",
+        "email": "bruno@test.com",
+        "whatsapp": "99999999999",
+        "endereco": {
+            "cep": "02217050",
+            "numero": "99",
+            "complemento": "Bar do cypress"
+        },
+        "metodo_entrega": "Moto",
+        "cnh": "cnh-digital.jpg"
+    },
+    "incorrectEmail":{
+       "nome": "Bruno Santos",
+       "cpf": "00000000274",
+       "email": "error.com.br",
+       "whatsapp": "99999999999",
+       "endereco": {
+           "cep": "02217050",
+           "numero": "99",
+           "complemento": "Bar do cypress"
+       },
+       "metodo_entrega": "Moto",
+       "cnh": "cnh-digital.jpg"
+   }
+}
