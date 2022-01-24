@@ -4,6 +4,10 @@ import SignupPage from '../pages/SignupPage'
 
 describe('CADASTRO', () => {
 
+    it('Home page on', function () {
+        signup.homePageOn()
+    })
+
     it('Successful registration', function () {
         var deliver = dataFactory.deliver()
         const message = 'Recebemos os seus dados. Fique de olho na sua caixa de email, pois e em breve retornamos o contato.'
